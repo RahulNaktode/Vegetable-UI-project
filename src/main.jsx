@@ -2,7 +2,7 @@ import { createRoot } from 'react-dom/client'
 import './index.css'
 import { BrowserRouter, Route, Routes } from 'react-router';
 import Home from './view/Home.jsx'
-import Vegetables from './view/Vegetable.jsx'
+import Vegetables from './../src/view/Vegetable.jsx'
 
 
 const root = createRoot(document.getElementById('root'));
