@@ -26,4 +26,5 @@ h6 {
 
 #root{
   background-color: #00e600;
+  min-height: 100vh;
 }

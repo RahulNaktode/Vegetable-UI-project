@@ -6,7 +6,7 @@ const BUTTON_VARIETY = {
 
 const BUTTON_SIZE = {
     larger: "text-3xl px-7 py-1.5",
-    medium: "text-2xl px-5 py-1",
+    medium: "text-2xl px-4 py-1",
     small: "text-xl px-3 py-0.5"
 }
 

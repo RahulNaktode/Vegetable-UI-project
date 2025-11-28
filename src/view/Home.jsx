@@ -3,9 +3,12 @@ import Footer from '../component/Footer.jsx'
 import VegetableImg from './../assets/vegetables.png'
 import Button from './../component/Button.jsx'
 import FeatureSession from '../component/FeatureSession.jsx'
+import { useNavigate } from "react-router";
 
 
 function Home() {
+  const navigate = useNavigate();
+
   return (
     
     <div>
@@ -16,7 +19,9 @@ function Home() {
           <div>
           <h1 className='text-center text-4xl! md:text-6xl! md:ml-20  text-orange-700'>One Platfrom that all the Vegetables you Needs</h1>
            <div className='flex flex-col justify-center md:ml-10 md:flex md:flex-row'>
-           <Button title='Explore Now' varient='primary' size='medium'/>
+           <Button title='Explore Now' onClick={() => {
+            navigate("/vegetable")
+           }} varient='primary' size='medium'/>
            <Button title='Call Us' varient='thrid' size='medium'/>
            </div>
            </div>

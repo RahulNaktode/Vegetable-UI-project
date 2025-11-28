@@ -1,0 +1,690 @@
+[
+    {
+        "id": 1,
+        "name": "Tomato",
+        "image": "https://picsum.photos/seed/tomato/200/300",
+        "price": 100,
+        "description": "Fresh and juicy tomatoes, perfect for salads and cooking.",
+        "unit": "1 kg",
+        "category": "Vegetable",
+        "tags": [
+            "fresh",
+            "organic",
+            "red"
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Carrot",
+        "image": "https://picsum.photos/seed/carrot/200/300",
+        "price": 80,
+        "description": "Crunchy and sweet carrots, rich in vitamin A.",
+        "unit": "1 kg",
+        "category": "Vegetable",
+        "tags": [
+            "fresh",
+            "organic",
+            "orange"
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Broccoli",
+        "image": "https://picsum.photos/seed/broccoli/200/300",
+        "price": 120,
+        "description": "Fresh green broccoli, loaded with nutrients.",
+        "unit": "1 kg",
+        "category": "Vegetable",
+        "tags": [
+            "fresh",
+            "organic",
+            "green"
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Cauliflower",
+        "image": "https://picsum.photos/seed/cauliflower/200/300",
+        "price": 110,
+        "description": "Fresh white cauliflower, versatile for cooking.",
+        "unit": "1 kg",
+        "category": "Vegetable",
+        "tags": [
+            "fresh",
+            "organic",
+            "white"
+        ]
+    },
+    {
+        "id": 5,
+        "name": "Spinach",
+        "image": "https://picsum.photos/seed/spinach/200/300",
+        "price": 90,
+        "description": "Fresh organic spinach, packed with iron.",
+        "unit": "500g",
+        "category": "Vegetable",
+        "tags": [
+            "fresh",
+            "organic",
+            "leafy"
+        ]
+    },
+    {
+        "id": 6,
+        "name": "Bell Pepper",
+        "image": "https://picsum.photos/seed/bellpepper/200/300",
+        "price": 95,
+        "description": "Colorful bell peppers, sweet and crunchy.",
+        "unit": "1 kg",
+        "category": "Vegetable",
+        "tags": [
+            "fresh",
+            "organic",
+            "colorful"
+        ]
+    },
+    {
+        "id": 7,
+        "name": "Cucumber",
+        "image": "https://picsum.photos/seed/cucumber/200/300",
+        "price": 70,
+        "description": "Refreshing cucumbers, perfect for salads.",
+        "unit": "1 kg",
+        "category": "Vegetable",
+        "tags": [
+            "fresh",
+            "organic",
+            "green"
+        ]
+    },
+    {
+        "id": 8,
+        "name": "Onion",
+        "image": "https://picsum.photos/seed/onion/200/300",
+        "price": 50,
+        "description": "Fresh onions, aromatic and flavorful.",
+        "unit": "1 kg",
+        "category": "Vegetable",
+        "tags": [
+            "fresh",
+            "organic"
+        ]
+    },
+    {
+        "id": 9,
+        "name": "Garlic",
+        "image": "https://picsum.photos/seed/garlic/200/300",
+        "price": 130,
+        "description": "Fresh garlic bulbs, strong and aromatic.",
+        "unit": "500g",
+        "category": "Vegetable",
+        "tags": [
+            "fresh",
+            "organic"
+        ]
+    },
+    {
+        "id": 10,
+        "name": "Potato",
+        "image": "https://picsum.photos/seed/potato/200/300",
+        "price": 60,
+        "description": "Fresh potatoes, versatile cooking ingredient.",
+        "unit": "1 kg",
+        "category": "Vegetable",
+        "tags": [
+            "fresh",
+            "organic"
+        ]
+    },
+    {
+        "id": 11,
+        "name": "Lettuce",
+        "image": "https://picsum.photos/seed/lettuce/200/300",
+        "price": 85,
+        "description": "Fresh crisp lettuce, perfect for salads.",
+        "unit": "1 kg",
+        "category": "Vegetable",
+        "tags": [
+            "fresh",
+            "organic",
+            "leafy"
+        ]
+    },
+    {
+        "id": 12,
+        "name": "Cabbage",
+        "image": "https://picsum.photos/seed/cabbage/200/300",
+        "price": 75,
+        "description": "Fresh cabbage, versatile for cooking.",
+        "unit": "1 kg",
+        "category": "Vegetable",
+        "tags": [
+            "fresh",
+            "organic"
+        ]
+    },
+    {
+        "id": 13,
+        "name": "Peas",
+        "image": "https://picsum.photos/seed/peas/200/300",
+        "price": 110,
+        "description": "Fresh green peas, sweet and tender.",
+        "unit": "1 kg",
+        "category": "Vegetable",
+        "tags": [
+            "fresh",
+            "organic",
+            "green"
+        ]
+    },
+    {
+        "id": 14,
+        "name": "Beans",
+        "image": "https://picsum.photos/seed/beans/200/300",
+        "price": 100,
+        "description": "Fresh beans, packed with protein.",
+        "unit": "1 kg",
+        "category": "Vegetable",
+        "tags": [
+            "fresh",
+            "organic",
+            "green"
+        ]
+    },
+    {
+        "id": 15,
+        "name": "Corn",
+        "image": "https://picsum.photos/seed/corn/200/300",
+        "price": 95,
+        "description": "Fresh sweet corn, perfect for grilling.",
+        "unit": "1 dozen",
+        "category": "Vegetable",
+        "tags": [
+            "fresh",
+            "organic",
+            "yellow"
+        ]
+    },
+    {
+        "id": 16,
+        "name": "Eggplant",
+        "image": "https://picsum.photos/seed/eggplant/200/300",
+        "price": 100,
+        "description": "Fresh eggplants, versatile for cooking.",
+        "unit": "1 kg",
+        "category": "Vegetable",
+        "tags": [
+            "fresh",
+            "organic",
+            "purple"
+        ]
+    },
+    {
+        "id": 17,
+        "name": "Zucchini",
+        "image": "https://picsum.photos/seed/zucchini/200/300",
+        "price": 90,
+        "description": "Fresh zucchini, light and tender.",
+        "unit": "1 kg",
+        "category": "Vegetable",
+        "tags": [
+            "fresh",
+            "organic",
+            "green"
+        ]
+    },
+    {
+        "id": 18,
+        "name": "Squash",
+        "image": "https://picsum.photos/seed/squash/200/300",
+        "price": 100,
+        "description": "Fresh squash, great for cooking.",
+        "unit": "1 kg",
+        "category": "Vegetable",
+        "tags": [
+            "fresh",
+            "organic",
+            "yellow"
+        ]
+    },
+    {
+        "id": 19,
+        "name": "Radish",
+        "image": "https://picsum.photos/seed/radish/200/300",
+        "price": 70,
+        "description": "Fresh radishes, crispy and peppery.",
+        "unit": "1 kg",
+        "category": "Vegetable",
+        "tags": [
+            "fresh",
+            "organic",
+            "red"
+        ]
+    },
+    {
+        "id": 20,
+        "name": "Beetroot",
+        "image": "https://picsum.photos/seed/beetroot/200/300",
+        "price": 95,
+        "description": "Fresh beetroots, earthy and sweet.",
+        "unit": "1 kg",
+        "category": "Vegetable",
+        "tags": [
+            "fresh",
+            "organic",
+            "red"
+        ]
+    },
+    {
+        "id": 21,
+        "name": "Apple",
+        "image": "https://picsum.photos/seed/apple/200/300",
+        "price": 150,
+        "description": "Sweet and crispy apples, fresh from orchard.",
+        "unit": "1 kg",
+        "category": "Fruit",
+        "tags": [
+            "fresh",
+            "organic",
+            "red"
+        ]
+    },
+    {
+        "id": 22,
+        "name": "Banana",
+        "image": "https://picsum.photos/seed/banana/200/300",
+        "price": 70,
+        "description": "Ripe and sweet bananas, perfect snack.",
+        "unit": "1 dozen",
+        "category": "Fruit",
+        "tags": [
+            "fresh",
+            "organic",
+            "yellow"
+        ]
+    },
+    {
+        "id": 23,
+        "name": "Orange",
+        "image": "https://picsum.photos/seed/orange/200/300",
+        "price": 120,
+        "description": "Fresh citrus oranges, full of vitamin C.",
+        "unit": "1 kg",
+        "category": "Fruit",
+        "tags": [
+            "fresh",
+            "organic",
+            "citrus"
+        ]
+    },
+    {
+        "id": 24,
+        "name": "Grapes",
+        "image": "https://picsum.photos/seed/grapes/200/300",
+        "price": 180,
+        "description": "Fresh bunches of grapes, sweet and juicy.",
+        "unit": "1 kg",
+        "category": "Fruit",
+        "tags": [
+            "fresh",
+            "organic",
+            "purple"
+        ]
+    },
+    {
+        "id": 25,
+        "name": "Mango",
+        "image": "https://picsum.photos/seed/mango/200/300",
+        "price": 200,
+        "description": "King of fruits, sweet and aromatic mangoes.",
+        "unit": "1 kg",
+        "category": "Fruit",
+        "tags": [
+            "fresh",
+            "organic",
+            "seasonal"
+        ]
+    },
+    {
+        "id": 26,
+        "name": "Strawberry",
+        "image": "https://picsum.photos/seed/strawberry/200/300",
+        "price": 220,
+        "description": "Fresh sweet strawberries, perfect for desserts.",
+        "unit": "500g",
+        "category": "Fruit",
+        "tags": [
+            "fresh",
+            "organic",
+            "red"
+        ]
+    },
+    {
+        "id": 27,
+        "name": "Blueberry",
+        "image": "https://picsum.photos/seed/blueberry/200/300",
+        "price": 250,
+        "description": "Antioxidant-rich blueberries, super healthy.",
+        "unit": "500g",
+        "category": "Fruit",
+        "tags": [
+            "fresh",
+            "organic",
+            "blue"
+        ]
+    },
+    {
+        "id": 28,
+        "name": "Watermelon",
+        "image": "https://picsum.photos/seed/watermelon/200/300",
+        "price": 140,
+        "description": "Refreshing watermelon, perfect for summer.",
+        "unit": "1 whole",
+        "category": "Fruit",
+        "tags": [
+            "fresh",
+            "organic",
+            "seasonal"
+        ]
+    },
+    {
+        "id": 29,
+        "name": "Pineapple",
+        "image": "https://picsum.photos/seed/pineapple/200/300",
+        "price": 180,
+        "description": "Tropical pineapple, sweet and juicy.",
+        "unit": "1 whole",
+        "category": "Fruit",
+        "tags": [
+            "fresh",
+            "organic",
+            "tropical"
+        ]
+    },
+    {
+        "id": 30,
+        "name": "Papaya",
+        "image": "https://picsum.photos/seed/papaya/200/300",
+        "price": 160,
+        "description": "Creamy papaya, great for digestion.",
+        "unit": "1 kg",
+        "category": "Fruit",
+        "tags": [
+            "fresh",
+            "organic",
+            "orange"
+        ]
+    },
+    {
+        "id": 31,
+        "name": "Lemon",
+        "image": "https://picsum.photos/seed/lemon/200/300",
+        "price": 100,
+        "description": "Fresh sour lemons, great for flavoring.",
+        "unit": "1 kg",
+        "category": "Fruit",
+        "tags": [
+            "fresh",
+            "organic",
+            "citrus"
+        ]
+    },
+    {
+        "id": 32,
+        "name": "Lime",
+        "image": "https://picsum.photos/seed/lime/200/300",
+        "price": 110,
+        "description": "Fresh limes, tangy and refreshing.",
+        "unit": "1 kg",
+        "category": "Fruit",
+        "tags": [
+            "fresh",
+            "organic",
+            "citrus"
+        ]
+    },
+    {
+        "id": 33,
+        "name": "Kiwi",
+        "image": "https://picsum.photos/seed/kiwi/200/300",
+        "price": 140,
+        "description": "Fresh kiwis, tangy and tropical.",
+        "unit": "1 kg",
+        "category": "Fruit",
+        "tags": [
+            "fresh",
+            "organic",
+            "green"
+        ]
+    },
+    {
+        "id": 34,
+        "name": "Pomegranate",
+        "image": "https://picsum.photos/seed/pomegranate/200/300",
+        "price": 200,
+        "description": "Fresh pomegranates, antioxidant powerhouse.",
+        "unit": "1 kg",
+        "category": "Fruit",
+        "tags": [
+            "fresh",
+            "organic",
+            "red"
+        ]
+    },
+    {
+        "id": 35,
+        "name": "Peach",
+        "image": "https://picsum.photos/seed/peach/200/300",
+        "price": 130,
+        "description": "Juicy peaches, perfect summer fruit.",
+        "unit": "1 kg",
+        "category": "Fruit",
+        "tags": [
+            "fresh",
+            "organic",
+            "orange"
+        ]
+    },
+    {
+        "id": 36,
+        "name": "Pear",
+        "image": "https://picsum.photos/seed/pear/200/300",
+        "price": 125,
+        "description": "Fresh pears, sweet and tender.",
+        "unit": "1 kg",
+        "category": "Fruit",
+        "tags": [
+            "fresh",
+            "organic"
+        ]
+    },
+    {
+        "id": 37,
+        "name": "Avocado",
+        "image": "https://picsum.photos/seed/avocado/200/300",
+        "price": 180,
+        "description": "Creamy avocados, rich in healthy fats.",
+        "unit": "1 kg",
+        "category": "Fruit",
+        "tags": [
+            "fresh",
+            "organic",
+            "green"
+        ]
+    },
+    {
+        "id": 38,
+        "name": "Coconut",
+        "image": "https://picsum.photos/seed/coconut/200/300",
+        "price": 150,
+        "description": "Fresh coconuts, tropical and nutritious.",
+        "unit": "1 whole",
+        "category": "Fruit",
+        "tags": [
+            "fresh",
+            "organic",
+            "tropical"
+        ]
+    },
+    {
+        "id": 39,
+        "name": "Milk",
+        "image": "https://picsum.photos/seed/milk/200/300",
+        "price": 50,
+        "description": "Fresh pasteurized milk, rich in calcium.",
+        "unit": "1 liter",
+        "category": "Dairy",
+        "tags": [
+            "fresh",
+            "organic",
+            "calcium"
+        ]
+    },
+    {
+        "id": 40,
+        "name": "Yogurt",
+        "image": "https://picsum.photos/seed/yogurt/200/300",
+        "price": 80,
+        "description": "Creamy yogurt, packed with probiotics.",
+        "unit": "500g",
+        "category": "Dairy",
+        "tags": [
+            "fresh",
+            "organic",
+            "probiotic"
+        ]
+    },
+    {
+        "id": 41,
+        "name": "Cheese",
+        "image": "https://picsum.photos/seed/cheese/200/300",
+        "price": 300,
+        "description": "Aged cheese, perfect for cooking and snacking.",
+        "unit": "500g",
+        "category": "Dairy",
+        "tags": [
+            "fresh",
+            "organic"
+        ]
+    },
+    {
+        "id": 42,
+        "name": "Butter",
+        "image": "https://picsum.photos/seed/butter/200/300",
+        "price": 250,
+        "description": "Pure butter, creamy and smooth.",
+        "unit": "500g",
+        "category": "Dairy",
+        "tags": [
+            "fresh",
+            "organic"
+        ]
+    },
+    {
+        "id": 43,
+        "name": "Cream",
+        "image": "https://picsum.photos/seed/cream/200/300",
+        "price": 180,
+        "description": "Fresh cream, perfect for desserts and cooking.",
+        "unit": "500ml",
+        "category": "Dairy",
+        "tags": [
+            "fresh",
+            "organic"
+        ]
+    },
+    {
+        "id": 44,
+        "name": "Paneer",
+        "image": "https://picsum.photos/seed/paneer/200/300",
+        "price": 350,
+        "description": "Fresh paneer cheese, perfect for Indian cuisine.",
+        "unit": "500g",
+        "category": "Dairy",
+        "tags": [
+            "fresh",
+            "organic"
+        ]
+    },
+    {
+        "id": 45,
+        "name": "Cottage Cheese",
+        "image": "https://picsum.photos/seed/cottagecheese/200/300",
+        "price": 200,
+        "description": "Fresh cottage cheese, soft and creamy.",
+        "unit": "500g",
+        "category": "Dairy",
+        "tags": [
+            "fresh",
+            "organic"
+        ]
+    },
+    {
+        "id": 46,
+        "name": "Asparagus",
+        "image": "https://picsum.photos/seed/asparagus/200/300",
+        "price": 150,
+        "description": "Fresh asparagus, tender and nutritious.",
+        "unit": "500g",
+        "category": "Vegetable",
+        "tags": [
+            "fresh",
+            "organic",
+            "green"
+        ]
+    },
+    {
+        "id": 47,
+        "name": "Mushroom",
+        "image": "https://picsum.photos/seed/mushroom/200/300",
+        "price": 120,
+        "description": "Fresh mushrooms, earthy and delicious.",
+        "unit": "500g",
+        "category": "Vegetable",
+        "tags": [
+            "fresh",
+            "organic"
+        ]
+    },
+    {
+        "id": 48,
+        "name": "Ginger",
+        "image": "https://picsum.photos/seed/ginger/200/300",
+        "price": 140,
+        "description": "Fresh ginger root, spicy and aromatic.",
+        "unit": "500g",
+        "category": "Vegetable",
+        "tags": [
+            "fresh",
+            "organic"
+        ]
+    },
+    {
+        "id": 49,
+        "name": "Milk Cream",
+        "image": "https://picsum.photos/seed/milkcream/200/300",
+        "price": 220,
+        "description": "Premium milk cream, rich and smooth.",
+        "unit": "500ml",
+        "category": "Dairy",
+        "tags": [
+            "fresh",
+            "organic",
+            "premium"
+        ]
+    },
+    {
+        "id": 50,
+        "name": "Turnip",
+        "image": "https://picsum.photos/seed/turnip/200/300",
+        "price": 80,
+        "description": "Fresh turnips, mild and tender.",
+        "unit": "1 kg",
+        "category": "Vegetable",
+        "tags": [
+            "fresh",
+            "organic",
+            "white"
+        ]
+    }
+]
