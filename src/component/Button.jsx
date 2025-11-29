@@ -1,7 +1,8 @@
 const BUTTON_VARIETY = {
     primary: "bg-orange-600 text-white hover:bg-orange-700 transition-duration-700",
     secondary: "bg-blue-500 text-white hover:bg-blue-600 transition-duration-700",
-    thrid: "bg-green-700 text-white hover:bg-green-800 transition-duration-700"
+    thrid: "bg-green-700 text-white hover:bg-green-800 transition-duration-700",
+    danger: "bg-red-600 text-white hover:bg-red-700 transition-duration-700"
 }
 
 const BUTTON_SIZE = {
