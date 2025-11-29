@@ -3,14 +3,14 @@ import Button from './Button'
 import { SquareMinus, SquarePlus } from 'lucide-react'
 import toast, { Toaster } from 'react-hot-toast'
 
-function Vegetables({id, name, price,image, category, description, unit, tags}) {
+function Vegetables({id, name, price,image, category, description, unit, tags,addToCard}) {
 
   const [qunatity, setquntity] = useState(1);
 
   return (
     <div className='bg-white border-solid border-b-slate-700 p-5 w-80 my-5 rounded-lg shadow-xl flex flex-col gap-2'>
       <img src={image} alt={name} className='w-full h-48 object-cover rounded-md' />
-      <div className='text-center'>
+      <div className='text-center' key={id}>
         <h3 className=''>{name}</h3>
       <p className=''>{description}</p>
       </div>
@@ -35,7 +35,11 @@ function Vegetables({id, name, price,image, category, description, unit, tags}) 
         }}/>
         </div>
       <div className='flex justify-center'>
-      <Button title='Add to Card' size='medium'/>
+      <Button title='Add to Card' size='medium' onClick={()=>{
+        addToCard({
+          id, name, price,image, category, description, unit, tags, qunatity, totalprize: price*qunatity
+        })
+      }}/>
       </div>
 
       <Toaster />
