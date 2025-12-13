@@ -6,7 +6,7 @@ import FiberContentImg from './../assets/Features/fruit.png'
 function FeatureCard({ title, description, Imgsrc }) {
     return (
 
-        <div className='bg-white p-5 mt-10 rounded-2xl w-60 flex flex-col mx-20 md:w-80 md:mx-3'>
+        <div className='bg-white p-5 mt-10 rounded-2xl w-60 flex flex-col mx-20 md:w-80 md:mx-3 mb-3'>
             <img src={Imgsrc} alt={title} className='h-20 md:h-35 mx-auto ' />
             <h3 className='text-center text-xl! md:text-2xl!'>{title}</h3>
             <p className='text-center'>{description}</p>
